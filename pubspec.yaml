@@ -49,13 +49,6 @@ dev_dependencies:
 
   patrol: ^3.9.0
 
-patrol:
-  app_name: Test
-  android:
-    package_name: com.example.untitled1
-  ios:
-    bundle_id: com.example.untitled1
-
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -97,3 +90,10 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+patrol:
+  app_name: untitled1
+  android:
+    package_name: com.example.untitled1
+  ios:
+    bundle_id: com.example.untitled1
